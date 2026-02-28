@@ -1,0 +1,26 @@
+gitignore
+# IDE / Editor settings
+.idea/
+*.iml
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Build artifacts
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Signing files (Security: NEVER commit these)
+*.jks
+*.keystore
+
+# Log files
+*.log
